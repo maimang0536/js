@@ -2,9 +2,9 @@ backend:
     functions:
         - entry: index.js
           handler: handler
-          name: express
+          name: function-serverless-http
           path: .
-          type: httpServer
+          type: aws
     language:
         name: js
     path: ./
@@ -14,5 +14,11 @@ backend:
         local:
             - npm install
 name: express-hello-world
+nextjs:
+    packageManager: npm
+    path: ./
+    scripts:
+        deploy:
+            - sh entrypoint.sh
 region: eu-central-1
 yamlVersion: 2
