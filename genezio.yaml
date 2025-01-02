@@ -7,12 +7,18 @@ backend:
           type: httpServer
     language:
         name: js
-    path: .
+    path: ./
     scripts:
         deploy:
             - npm install
         local:
             - npm install
 name: express-hello-world
+nextjs:
+    packageManager: npm
+    path: ./
+    scripts:
+        deploy:
+            - npm install
 region: eu-central-1
 yamlVersion: 2
