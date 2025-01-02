@@ -13,7 +13,7 @@ WEB_PASSWORD=${WEB_PASSWORD:-'cisco@123'}
 #NEZHA_TLS="$NEZHA_TLS"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH='eyJhIjoiMjZkNTY5NzFmOTcyYmQxNzgzZjRhNjJjZTlhOTI0MDUiLCJ0IjoiY2ViZWExZDUtYmIxMy00YWQ1LTg1MjctYTVmZTU1NTY5Njc0IiwicyI6IllUVmpNVEkwTkRJdE4yWXpOUzAwWkRreExUbGpaREl0TTJZd1pHUXdZVGhqWmpOaiJ9'
+ARGO_AUTH="eyJhIjoiMjZkNTY5NzFmOTcyYmQxNzgzZjRhNjJjZTlhOTI0MDUiLCJ0IjoiY2ViZWExZDUtYmIxMy00YWQ1LTg1MjctYTVmZTU1NTY5Njc0IiwicyI6IllUVmpNVEkwTkRJdE4yWXpOUzAwWkRreExUbGpaREl0TTJZd1pHUXdZVGhqWmpOaiJ9"
 ARGO_DOMAIN="genez.cncc.us.to"
 
 # ttyd / filebrowser argo 域名
